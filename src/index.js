@@ -1,13 +1,14 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import App from './App';
-import GitRepos from "./components/GitRepos";
+// import App from './App';
+// import GitRepos from "./components/GitRepos";
+import StateLess from "./components/StateLess";
 import * as serviceWorker from './serviceWorker';
 
 ReactDOM.render(
   <React.StrictMode>
-    <GitRepos />
+    <StateLess />
   </React.StrictMode>,
   document.getElementById('root')
 );
